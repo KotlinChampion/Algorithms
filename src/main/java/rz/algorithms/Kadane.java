@@ -5,7 +5,7 @@ import org.junit.Assert;
 import org.junit.Test;
 
 /*
- * Write an algorithm that finds an returns the greatest sum out of a contiguous
+ * Write a function that finds an returns the greatest sum out of a contiguous
  * row of values.
  */
 
