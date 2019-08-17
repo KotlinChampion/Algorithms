@@ -15,7 +15,7 @@ public class Kadane {
         int sum = 0;
         if (array == null || array.length == 0) return sum;
         int maxSoFar = sum;
-        for (int i = 0; i < array.length; i++){
+        for (int i = 0; i < array.length; i++) {
             sum += array[i];
             if (sum < 0) sum = 0;
             if (maxSoFar < sum) maxSoFar = sum;
